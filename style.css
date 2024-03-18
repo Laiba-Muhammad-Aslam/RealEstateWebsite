@@ -16,3 +16,33 @@
 .project-card-text{
     font-size: 14px;
 }
+/* .booking-img{
+    background-image: url("/assests/booking.png");
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid purple;
+} */
+.booking-img>img{
+    width: 100%;
+}
+.book-now{
+    padding: 8px 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #1F1F1F;
+}
+.read-more{
+    padding: 8px 10px;
+    border: 1px solid #BEBEBE;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #1F1F1F;
+    background-color: #fff;
+}
+.row{
+    border: 2px solid red;
+}
