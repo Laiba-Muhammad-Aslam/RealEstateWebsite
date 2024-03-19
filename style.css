@@ -13,6 +13,18 @@
 .unfilled {
   color: #bebebe;
 }
+.contact-btn{
+  border: 1px solid #BEBEBE;
+  border-radius: 25px;
+}
+/* NAVBAR  */
+.navbar{
+  background-color: #fff;
+  height: 80px;
+}
+.service-btn{
+  background-color: #fff;
+}
 .project-card-text {
   font-size: 14px;
 }
@@ -58,7 +70,7 @@
 .col {
   /* border: 2px solid green; */
 }
-.footer {
+.footer , .home {
   /* background-image: url("/assests/Rectangle\ 17.png"); */
   background: rgb(251, 217, 185);
   background: radial-gradient(
@@ -69,12 +81,12 @@
     rgba(254, 254, 255, 1) 91%
   );
 }
-.footer input {
+.footer input , .home input{
   padding: 10px 55px 10px 20px;
   border: none;
   border-radius: 25px;
 }
-.footer button {
+.footer button , .home button {
   padding: 10px 15px 10px 15px;
   border-radius: 18px;
   border: none;
@@ -84,4 +96,14 @@
 }
 .footer img {
   object-fit: contain;
+}
+@media only screen and (max-width:990px){
+  .navbar{
+      height: auto;
+  }
+  .navbar .nav-item{
+      /* padding: 10px; */
+      padding: 3px;
+      text-align: center;
+  }
 }

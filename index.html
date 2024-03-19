@@ -22,9 +22,74 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
+    <!-- NAVBAR  -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="/assests/logo.png" alt="Bootstrap" width="100" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#home">About us</a>
+            </li>
+
+            <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#agents">Agents</a>
+          </li>
+
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#service">Services</a>
+          </li>
+
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#listing">Listings</a>
+          </li>
+
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="#"><i class="ri-search-line"></i></a>
+          </li>
+          </ul>
+          <form class="d-flex justify-content-center" role="search">
+          <button class="service-btn border-0 mx-3" type="submit">Help Center</button>
+          <button class="btn my-2 my-sm-0 contact-btn" type="submit">Contact us</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- HOME SECTION STARTS  -->
+
+    <div class="container home mb-5" id="home">
+      <div class="row">
+        <div class="col p-5">
+          <p>Welcome to Realstate</p>
+          <h1>Manage Your <br> Property</h1>
+          <p>
+            Your will have everything nearby supermarket, buses , station, the carmen neighborhood, etc
+          </p>
+          <input type="email" name="email" id="email" placeholder="Enter your email" class="mb-2 ">
+          <button>Get a quote</button>
+        </div>
+        <div class="col d-flex align-item-center justify-content-center">
+          <img src="/assests/hero-img.png" alt="" width="400">
+        </div>
+      </div>
+    </div>
+
+    <!-- HOME SECTION END  -->
+
     <!-- STEP SECTION START  -->
 
-    <!-- <div class="container steps-container">
+    <div class="container steps-container mb-5" id="agents">
       <p class="text-center">Three steps. Three minutes.</p>
       <h2 class="text-center">Everything should be this easy.</h2>
       <div class="row mt-4">
@@ -68,13 +133,13 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- STEP SECTION END  -->
 
     <!-- PROJECT SECTION START  -->
 
-    <!-- <div class="container project-section">
+    <div class="container project-section mb-5" id="projects">
       <p>Best Project of the Years</p>
       <h2>Our recent projects</h2>
       <div class="row mt-4">
@@ -136,13 +201,13 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <!-- PROJECT SECTION END  -->
 
     <!-- BOOKING SECTION START  -->
 
-    <!-- <div class="container">
+    <div class="container mb-5" id="service">
       <h2 class="text-center">
         We are a global, boutique real <br />
         estate brokerage
@@ -181,14 +246,14 @@
           <img src="/assests/booking-img.png" alt="" />
         </div>
       </div>
-    </div> -->
+    </div>
     <!-- BOOKING SECTION ENDS  -->
 
     <!-- FOOTER SECTION START -->
 
-    <div class="container footer">
+    <div class="container footer" id="listing">
       <div class="row">
-        <div class="col p-5">
+        <div class="col p-5 col-sm-12 col-md-6 col-lg-6">
           <h2>Subscribe Our Newsletter</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur. Feugiat ut aliquet sit pellentesque sollicitudin. Egestas faucibus lacus diam in senectus consectetur. Mattis elit adipiscing quisque tellus scelerisque vehicula ante nunc.
@@ -196,7 +261,7 @@
           <input type="email" name="email" id="email" placeholder="Enter your email" class="mb-2 ">
           <button>Get a quote</button>
         </div>
-        <div class="col d-flex align-item-center justify-content-center">
+        <div class="col d-flex align-item-center justify-content-center col-sm-12 col-md-6 col-lg-6">
           <img src="/assests/footer-img.png" alt="">
         </div>
       </div>
