@@ -1,20 +1,20 @@
-.message{
-    color: #58BF52;
+.message {
+  color: #58bf52;
 }
-.quote{
-    color: #FF791A;
+.quote {
+  color: #ff791a;
 }
-.pen{
-    color: #3741B5;
+.pen {
+  color: #3741b5;
 }
-.filled-star{
-    color: #F59914;
+.filled-star {
+  color: #f59914;
 }
-.unfilled{
-    color: #BEBEBE;
+.unfilled {
+  color: #bebebe;
 }
-.project-card-text{
-    font-size: 14px;
+.project-card-text {
+  font-size: 14px;
 }
 /* .booking-img{
     background-image: url("/assests/booking.png");
@@ -24,25 +24,64 @@
     background-repeat: no-repeat;
     border: 2px solid purple;
 } */
-.booking-img>img{
-    width: 100%;
+.booking-img > img {
+  /* width: 100%; */
+  /* min-width: 385px; */
+  /* width: 100%; */
+  height: 450px;
+  /* background-size: contain; */
+  /* background-position: center ; */
 }
-.book-now{
-    padding: 8px 10px;
-    border: 1px solid black;
-    border-radius: 25px;
-    font-size: 12px;
-    color: #fff;
-    background-color: #1F1F1F;
+.ratings p {
+  font-size: 12px;
+  font-weight: 500;
 }
-.read-more{
-    padding: 8px 10px;
-    border: 1px solid #BEBEBE;
-    border-radius: 25px;
-    font-size: 12px;
-    color: #1F1F1F;
-    background-color: #fff;
+.book-now {
+  padding: 8px 10px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #1f1f1f;
 }
-.row{
-    border: 2px solid red;
+.read-more {
+  padding: 8px 10px;
+  border: 1px solid #bebebe;
+  border-radius: 25px;
+  font-size: 12px;
+  color: #1f1f1f;
+  background-color: #fff;
+}
+.row {
+  /* border: 2px solid red; */
+}
+.col {
+  /* border: 2px solid green; */
+}
+.footer {
+  /* background-image: url("/assests/Rectangle\ 17.png"); */
+  background: rgb(251, 217, 185);
+  background: radial-gradient(
+    circle,
+    rgba(251, 217, 185, 1) 8%,
+    rgba(193, 222, 232, 1) 53%,
+    rgba(231, 243, 243, 1) 84%,
+    rgba(254, 254, 255, 1) 91%
+  );
+}
+.footer input {
+  padding: 10px 55px 10px 20px;
+  border: none;
+  border-radius: 25px;
+}
+.footer button {
+  padding: 10px 15px 10px 15px;
+  border-radius: 18px;
+  border: none;
+  background-color: #1f1f1f;
+  color: #fff;
+  font-size: 14px;
+}
+.footer img {
+  object-fit: contain;
 }
