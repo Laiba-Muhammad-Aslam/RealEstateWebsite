@@ -28,21 +28,8 @@
 .project-card-text {
   font-size: 14px;
 }
-/* .booking-img{
-    background-image: url("/assests/booking.png");
-    width: 100%;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    border: 2px solid purple;
-} */
 .booking-img > img {
-  /* width: 100%; */
-  /* min-width: 385px; */
-  /* width: 100%; */
   height: 450px;
-  /* background-size: contain; */
-  /* background-position: center ; */
 }
 .ratings p {
   font-size: 12px;
@@ -64,14 +51,7 @@
   color: #1f1f1f;
   background-color: #fff;
 }
-.row {
-  /* border: 2px solid red; */
-}
-.col {
-  /* border: 2px solid green; */
-}
 .footer , .home {
-  /* background-image: url("/assests/Rectangle\ 17.png"); */
   background: rgb(251, 217, 185);
   background: radial-gradient(
     circle,
@@ -102,7 +82,6 @@
       height: auto;
   }
   .navbar .nav-item{
-      /* padding: 10px; */
       padding: 3px;
       text-align: center;
   }
